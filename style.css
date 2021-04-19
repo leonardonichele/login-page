@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Lato', 'sans-serif';
+    /* background: url(https://images.unsplash.com/photo-1617612349848-5c926c855bd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80); */
+    background: url(https://images.pexels.com/photos/2371901/pexels-photo-2371901.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color:white;
+}
+
+h1 {
+    margin: 0 auto;
+    padding-top: 14%;
+    padding-left: 15%;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 400;
+    text-shadow: black 0.1em 0.05em 0.2em;
+}
+
+h2 {
+    margin: 0 auto;
+    padding-left: 15%;
+    font-size: 25px;
+    font-weight: 300;
+    text-shadow: black 0.2em 0.2em 2em;
+}
+
+h3 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.nav {
+    width: 280px;
+    margin-top: 20px;
+    margin-left: 14%;
+}
+
+.info input {
+    width: 660px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 20px;
+    border-color: blue;
+    padding-left: 10px;
+    color: white;
+	background: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.password:hover, .email:hover {
+	box-shadow: 0 0 10px rgba(178,34,34, 1); 
+	border: 1px #b22222	 solid;
+}
+
+.password:focus, .email:focus, .button:focus, .button:hover:focus {
+	box-shadow: 0 0 10px rgba(178,34,34, 1); 
+	border: 1px #b22222	 solid;
+}
+
+.btn {
+    background-color: #0b0b21;
+    border-color: white;
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: blue;
+}
+
+.checkbox {
+    margin-left: 10px;
+    transform: scale(1.5);
+}
+
+span {
+    margin-left: 5px;
+    font-size: 20px;
+}
