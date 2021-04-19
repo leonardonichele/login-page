@@ -41,6 +41,7 @@ h3 {
 }
 
 .info input {
+    flex: 1;
     width: 660px;
     height: 40px;
     margin: 10px;
@@ -73,7 +74,7 @@ h3 {
     font-family: 'Open Sans';
     font-weight: 600;
     margin-top: 15px;
-    margin-left: 10px;
+    margin-left: 12px;
     color: white;
     text-transform: uppercase;
 }
@@ -83,11 +84,17 @@ h3 {
 }
 
 .checkbox {
-    margin-left: 10px;
+    margin-left: 14px;
     transform: scale(1.5);
 }
 
 span {
     margin-left: 5px;
     font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .info input {
+        width: 360px;
+    }
 }
